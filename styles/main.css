@@ -1,5 +1,13 @@
 body {
-    font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #444444;
+  color: #ffffff;
+  font-size: 0.8rem;
 }
 
 .open-sans {
@@ -7,6 +15,5 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
 }

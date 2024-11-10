@@ -2,6 +2,19 @@ body {
   font-family: "Open Sans", sans-serif
 }
 
+header {
+  padding: 1rem;
+  background-color: #444444;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+ul.main-menu {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
 footer {
   text-align: center;
   padding: 1rem;

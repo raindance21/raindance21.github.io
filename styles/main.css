@@ -1,18 +1,29 @@
 body {
-  font-family: "Open Sans", sans-serif
+  font-family: "Open Sans", sans-serif;
+  margin: 0
 }
 
 header {
+  margin: 1rem;
   padding: 1rem;
-  background-color: #444444;
+  background-color: rgb(68 68 68 / 80%);
   color: #ffffff;
   font-size: 1.2rem;
+  border-radius: 15px;
+  backdrop-filter: blur(10px)
 }
 
 ul.main-menu {
   list-style: none;
   display: flex;
-  gap: 1rem;
+  gap: 3rem
+}
+
+main {
+  padding: 1rem;
+  margin: 2rem auto;
+  max-width: 900px;
+  hyphens: auto
 }
 
 footer {
@@ -20,7 +31,7 @@ footer {
   padding: 1rem;
   background-color: #444444;
   color: #ffffff;
-  font-size: 0.8rem;
+  font-size: 0.8rem
 }
 
 .open-sans {
@@ -28,5 +39,5 @@ footer {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings: "wdth" 100;
+  font-variation-settings: "wdth" 100
 }
